@@ -1,4 +1,4 @@
-from __future__ import division, print_function
+# from __future__ import division, print_function
 # coding=utf-8
 import sys
 import os
@@ -11,7 +11,7 @@ import neattext.functions as nfx
 import pickle
 # Flask utils
 from flask import Flask, redirect, url_for, request, render_template,flash
-from werkzeug.utils import secure_filename
+# from werkzeug.utils import secure_filename
 # from gevent.pywsgi import WSGIServer
 
 # Define a flask app
